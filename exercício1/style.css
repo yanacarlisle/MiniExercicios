@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+
 }
 section{
     position: relative;
@@ -30,7 +31,8 @@ header{
 header .logo
 {
     position: relative;
-    max-width: 80px;
+    max-width: 60px;
+    top: 10px;
 }
 header ul{
     position: relative;
@@ -56,11 +58,13 @@ header ul li a{
 .content .texto{
     position: relative;
     max-width: 600px;
+  
 }
 .content .texto h2{
     color: #505443;
-    font-size: 3em;
+    font-size: 2.8em;
     font-weight: 500;
+    padding-top: 1em;
 }
 .content .texto h2 span{
     color: #8C1616;
@@ -69,10 +73,11 @@ header ul li a{
 }
 .content .texto p{
     color:#505443;
+    padding-top: 30px;
 }
 .content .texto a{
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 40px;
     padding: 8px 20px;
     background: #8C1616;
     color: #fff;
