@@ -69,7 +69,6 @@ body{
     top: 90px;
 }
 .box_2{
-    
     position: relative;
     top: 130px;
 }
@@ -93,4 +92,70 @@ body{
 #p4{
     margin-left: 80px;
 }
+#quadrado1{
+    float: left;
+    font-size: 20px;
+    padding: 0.1em 0.5em;
+    position: relative;
+}
+#quadrado1::after{
+    content: '';
+    width: 25px;
+    height: 15px;
+    background: #C4CCD7;
+    position: absolute;
+    right: 65px;
+    top: 35px;
+    z-index: -1;
+}
+#quadrado2{
+    float: left;
+    font-size: 20px;
+    padding: 0.1em 0.5em;
+    position: relative;
+}
+#quadrado2::after{
+    content: '';
+    width: 30px;
+    height: 23px;
+    background: #C4CCD7;
+    position: absolute;
+    right: 70px;
+    top: 35px;
+    z-index: -1;
+}
+#quadrado3{
+    float: left;
+    font-size: 20px;
+    position: relative;
+}
+#quadrado3::after{
+    content: '';
+    width: 35px;
+    height: 24px;
+    background: #C4CCD7;
+    position: absolute;
+    right: 55px;
+    top: 29px;
+    z-index: -1;
+}
+#quadrado4{
+    float: left;
+    font-size: 20px;
+    position: relative;
+}
+#quadrado4::after{
+    content: '';
+    width: 35px;
+    height: 30px;
+    background: #C4CCD7;
+    position: absolute;
+    right: 73px;
+    top: 29px;
+    right: 55px;
+    z-index: -1;
+}
+
+
+
 
