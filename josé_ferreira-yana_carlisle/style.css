@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Lato:wght@700&family=Nunito:wght@700&family=Open+Sans&family=Rubik:wght@300;400;500;700&display=swap');
+ 
+body{
+    margin:0;
+    padding:0;
+    right: auto;
+    background-color: #000000;
+    max-width: 1450px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+main{
+   margin: 110px;
+}
+main h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 160%;
+    color:#BDBDBD;
+} 
+main p{
+    width: 441px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    margin-bottom: 2em;
+    color:#E0E0E0;
+}
+.contents{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 160%;
+}
+main h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 140%;
+    color: #F2994A;
+}  
+.botao{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    color: #F2C94C;
+    text-transform: uppercase;
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: none;
+    border-radius: 5px;
+    border-color: #F2C94C;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: #000000;
+    cursor: pointer;
+} 
+.xavier{
+   position: absolute;
+   width: 400px;
+   height: 406px;
+   left: 845px;
+   top: 113px;
+}
+.gradient{
+    position: absolute;
+    width: 486px;
+    height: 192px;
+    left: 800px;
+    top: 350px;
+    background: linear-gradient(180deg, #000000 9.17%, rgba(0, 0, 0, 0) 100%);
+    transform: rotate(180deg);
+}
+.link{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 895px;
+    top: 470px;
+}
+.insta{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 962px;
+    top: 470px;
+}
+.youtube{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1032px;
+    top: 470px;
+}
+.mid{
+   background-color: #ffff;
+   margin-top: 150px;
+   padding: 100px;
+}
+.mid h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 140%;
+    text-align: center;
+    color: #273444;
+}
+.mid p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 160%;
+    text-align: center;
+    color: #3C4858;
+}   
+.hero h1{
+    font-family: 'Inter';
+    font-size: 40px;
+    font-weight: 800;
+    color: #F2C94C;
+    width: 381px;
+    height: 30px;
+    left: 129px;
+    top: 1188px;
+}
+.hero p{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 300;
+    color: #E5E9F2;
+    width: 590px;
+}
+.card{
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #BDBDBD;
+}
+.hero-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+.hero-cards h2{
+    font-family: 'Inter';
+    font-size: 26px;
+    font-weight: 600;
+    color: #F9FAFC;
+}
+.hero-cards .classroom{
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    color: #E5E9F2;
+}
+.hero-cards .design{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 300;
+    color: #EFF2F7;
+}
+.hero-cards .design{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 300;
+    color: #EFF2F7;
+}
+.hero-cards a{
+    font-family: 'Nunito';
+    font-size: 16px;
+    font-weight: 700;
+    color: #EFF2F7;
+}
+.button .acess{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    color: #F2C94C;
+    text-transform: uppercase;
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 50px;
+}
+.card{
+    padding: 20px;
+    padding-bottom: 30px;
+    margin: 15px;
+    margin-left: 1px;
+}
+.button{
+    margin-top: 80px;
+    margin-left: 1px;
+    width: 400px;
+}
+.main{
+    margin: 110px;
+}
