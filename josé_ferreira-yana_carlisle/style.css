@@ -1,19 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Lato:wght@700&family=Nunito:wght@700&family=Open+Sans&family=Rubik:wght@300;400;500;700&display=swap');
  
 body{
-    margin:0;
-    padding:0;
-    right: auto;
     background-color: #000000;
-    max-width: 1450px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 30px;
+    margin: 0px;
+    padding: 0px;   
 }
-main{
-   margin: 110px;
+.container{
+   position: relative;
+   max-width: 1450px;
+   margin-right: auto;
+   margin-left: auto;
+   height: 695px;
 }
-main h2{
+.esquerda{
+    position: relative;
+    width: 475px;
+    left: 129px;
+    top: 150px;
+}
+.esquerda h2{
+    position:relative;
+    top:45px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 300;
@@ -21,14 +28,15 @@ main h2{
     line-height: 160%;
     color:#BDBDBD;
 } 
-main p{
+main .um{
+    position:relative;
+    top:45px;
     width: 441px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 160%;
-    margin-bottom: 2em;
     color:#E0E0E0;
 }
 .contents{
@@ -37,6 +45,7 @@ main p{
     font-weight: 300;
     font-size: 16px;
     line-height: 160%;
+    color:#BDBDBD;
 }
 main h1{
     font-family: 'Inter';
@@ -61,20 +70,21 @@ main h1{
     margin-top: 50px;
     background-color: #000000;
     cursor: pointer;
+    padding: 20px 53px;
 } 
 .xavier{
    position: absolute;
-   width: 400px;
-   height: 406px;
+   width: 486px;
+   height: 480px;
    left: 845px;
-   top: 113px;
+   top: 90px;
 }
 .gradient{
     position: absolute;
     width: 486px;
-    height: 192px;
-    left: 800px;
-    top: 350px;
+    height: 200px;
+    left: 845px;
+    top: 390px;
     background: linear-gradient(180deg, #000000 9.17%, rgba(0, 0, 0, 0) 100%);
     transform: rotate(180deg);
 }
@@ -83,28 +93,37 @@ main h1{
     width: 40px;
     height: 40px;
     left: 895px;
-    top: 470px;
+    top: 490px;
 }
 .insta{
     position: absolute;
     width: 40px;
     height: 40px;
     left: 962px;
-    top: 470px;
+    top: 490px;
 }
 .youtube{
     position: absolute;
     width: 40px;
     height: 40px;
     left: 1032px;
-    top: 470px;
+    top: 490px;
 }
 .mid{
-   background-color: #ffff;
-   margin-top: 150px;
-   padding: 100px;
+   position: relative;
+   height: 445px;
+   max-width: 1450px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.bg-mid{
+     background-color: #ffff;
+     width: 100%;
 }
 .mid h1{
+    position: absolute;
+    top: 78px;
+    left: 512px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
@@ -114,6 +133,9 @@ main h1{
     color: #273444;
 }
 .mid p{
+    position: absolute;
+    top: 230px;
+    left: 435px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -122,17 +144,19 @@ main h1{
     text-align: center;
     color: #3C4858;
 }   
-.hero h1{
+.main h1{
+    position: absolute;
     font-family: 'Inter';
     font-size: 40px;
     font-weight: 800;
     color: #F2C94C;
-    width: 381px;
-    height: 30px;
+    top: 43px;
     left: 129px;
-    top: 1188px;
 }
-.hero p{
+.main p{
+    position: absolute;
+    left: 129px;
+    top: 118px;
     font-family: 'Inter';
     font-size: 16px;
     font-weight: 300;
@@ -140,49 +164,64 @@ main h1{
     width: 590px;
 }
 .card{
+    position: relative;
     border-style: solid;
     border-width: 1px;
     text-decoration: none;
+    box-sizing: border-box;
     border-radius: 5px;
     color: #BDBDBD;
+    left: 129px;
+    top: 234px;
+    width: 385px;
+    height: 303px;
+    display: inline-block;
+    margin-right: 24px;
 }
-.hero-cards{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 35px;
+.main{
+    position: relative;
+    height: 740px;
+    max-width: 1450px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.hero-cards h2{
+.card h2{
+    position: absolute;
+    left: 22px;
+    top: 34px;
     font-family: 'Inter';
     font-size: 26px;
     font-weight: 600;
     color: #F9FAFC;
 }
-.hero-cards .classroom{
+#classroom{
+    position: absolute;
+    top: 109px;
+    left: 22px;
     font-family: 'Inter';
     font-size: 14px;
     font-weight: 400;
     color: #E5E9F2;
 }
-.hero-cards .design{
+.card p{
+    position: absolute;
+    top: 139px;
+    left: 22px;
     font-family: 'Inter';
     font-size: 16px;
     font-weight: 300;
     color: #EFF2F7;
 }
-.hero-cards .design{
-    font-family: 'Inter';
-    font-size: 16px;
-    font-weight: 300;
-    color: #EFF2F7;
-}
-.hero-cards a{
+.card a{
+    position: absolute;
+    bottom: 35px;
+    left: 22px;
     font-family: 'Nunito';
     font-size: 16px;
     font-weight: 700;
     color: #EFF2F7;
 }
-.button .acess{
+.acess{
     font-family: 'Lato';
     font-size: 16px;
     font-weight: 700;
@@ -192,20 +231,21 @@ main h1{
     border-width: 1px;
     text-decoration: none;
     border-radius: 5px;
-    padding: 20px;
-    margin-top: 50px;
 }
-.card{
-    padding: 20px;
-    padding-bottom: 30px;
-    margin: 15px;
-    margin-left: 1px;
-}
-.button{
-    margin-top: 80px;
-    margin-left: 1px;
-    width: 400px;
-}
-.main{
-    margin: 110px;
+.button a{
+    position: absolute;
+    left: 129px;
+    top: 635px;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    color: #F2C94C;
+    text-transform: uppercase;
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: none;
+    border-radius: 5px;
+    border-color: #F2C94C;
+    padding: 20px 53px;
+    background-color: #000000;
 }
